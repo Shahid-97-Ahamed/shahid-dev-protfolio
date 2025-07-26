@@ -177,3 +177,29 @@ footer input[type="text"], footer input[type="email"], footer textarea{
     border: none;
 }
 /* footer Styles ends */
+
+
+/* For Responsive media Style */
+
+@media screen and (max-width:576px) {
+    .skills-contener,.reasume-contener{
+    flex-direction: column;
+}
+
+.about,footer{
+    flex-direction: column;
+    
+}
+
+footer{
+    padding: 18px;
+}
+
+.footer-column{
+    width: 100%;
+}
+
+footer input[type="text"], footer input[type="email"], footer textarea{
+    width: calc(100% - 40px);
+}
+}
